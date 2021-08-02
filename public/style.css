@@ -3,12 +3,12 @@ body {
     color: yellow;
 }
 
-#niceButton {
-    border-radius: 5px;
-    box-shadow: 2px 2px 5px black;
-}
-#niceButton:hover {
-    color: orange;
-    background:chocolate;
-    box-shadow: 2px 2px 5px white;
+
+.box {
+  height: 50px;
+  width: 50px;
+  background-color: gray;
+  border-radius: 50%;
+  box-shadow: 5px 5px 10px blanchedalmond;  
+
 }
