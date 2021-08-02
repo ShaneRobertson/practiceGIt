@@ -2,3 +2,13 @@ body {
     background-color: blue;
     color: yellow;
 }
+
+#niceButton {
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px black;
+}
+#niceButton:hover {
+    color: orange;
+    background:chocolate;
+    box-shadow: 2px 2px 5px white;
+}
