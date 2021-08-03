@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "practice": "node index.js"
+    "server:dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/ShaneRobertson/practiceGIt/issues"
   },
-  "homepage": "https://github.com/ShaneRobertson/practiceGIt#readme"
+  "homepage": "https://github.com/ShaneRobertson/practiceGIt#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "pg": "^8.7.1"
+  }
 }
